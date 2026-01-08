@@ -75,8 +75,18 @@ class _RippleScreenState extends State<RippleScreen>
                   ),
 
                 // Center Text
+                // const Text(
+                //   "Flutter",
+                //   style: TextStyle(
+                //     fontSize: 25,
+                //     fontWeight: FontWeight.bold,
+                //     color: Colors.blue,
+                //   ),
+                // ),
                 const Text(
-                  "Flutter",
+                  "Hello\nFlutter",
+                  textAlign: TextAlign.center,
+                  maxLines: 2,
                   style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.bold,
